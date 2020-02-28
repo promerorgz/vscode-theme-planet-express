@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/promerorgz/vscode-theme-planet-express/issues"
   },
-  "homepage": "https://github.com/promerorgz/vscode-theme-planet-express#readme"
+  "homepage": "https://github.com/promerorgz/vscode-theme-planet-express#readme",
+  "dependencies": {
+    "nodemon": "^2.0.2",
+    "vsce": "^1.74.0"
+  }
 }
