@@ -4,13 +4,38 @@
   "description": "🚀 Planet Express!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec vsce package"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/promerorgz/vscode-theme-planet-express.git"
   },
-  "author": "",
+  "galleryBanner": {
+    "color": "#75757",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Themes",
+    "VSCode",
+    "Planet Express"
+  ],
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Planet Express",
+        "uiTheme": "vs-dark",
+        "path": "./theme/planetexpress.json"
+      }
+    ]
+  },
+  "author": "pr",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/promerorgz/vscode-theme-planet-express/issues"
